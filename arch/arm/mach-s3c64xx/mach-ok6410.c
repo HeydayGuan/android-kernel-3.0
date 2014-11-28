@@ -221,6 +221,7 @@ static struct platform_device *ok6410_devices[] __initdata = {
 	&ok6410_lcd_powerdev,
 	&s3c_device_adc,
 	&s3c_device_ts,
+	&s3c_device_rtc,
 };
 
 static void __init ok6410_map_io(void)
